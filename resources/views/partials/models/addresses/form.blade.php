@@ -1,0 +1,7 @@
+@include('partials.fields.text', ['name' => 'Address Line 1', 'field' => 'address_line_1', 'value' => $address_line_1 ?? null,])
+@include('partials.fields.text', ['name' => 'Address Line 2', 'field' => 'address_line_2', 'value' => $address_line_2 ?? null,])
+@include('partials.fields.text', ['name' => 'Town', 'field' => 'town', 'value' => $town ?? null,])
+@include('partials.fields.text', ['name' => 'Region', 'field' => 'region', 'value' => $region ?? null,])
+@include('partials.fields.text', ['name' => 'Country', 'field' => 'country', 'value' => $country ?? null,])
+@include('partials.fields.text', ['name' => 'Postcode', 'field' => 'postcode', 'value' => $postcode ?? null,])
+@include('partials.fields.submit')
